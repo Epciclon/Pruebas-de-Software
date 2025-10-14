@@ -1,0 +1,27 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "Laboratorio de Verificación y Validación",
+  "main": "./src/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint"
+  },
+  "keywords": [
+    "Validacion",
+    "verificacion"
+  ],
+  "author": "Darwin Panchez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.27.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
+  }
+}
